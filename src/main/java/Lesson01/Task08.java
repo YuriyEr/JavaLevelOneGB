@@ -6,7 +6,10 @@ public class Task08 {
 //        Каждый 4-й год является високосным, кроме каждого 100-го, при этом каждый 400-й – високосный.
 
         //Check
-        checkLeap(200);
+        checkLeap(4);
+        checkLeap(100);
+        checkLeap(400);
+        checkLeap(2020);
     }
 
     private static void checkLeap (long year) {
