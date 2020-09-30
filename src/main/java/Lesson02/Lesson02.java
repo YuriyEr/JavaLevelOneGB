@@ -81,5 +81,4 @@ public class Lesson02 {
         System.out.println("Минимальное значение массива: " + myArray.get(0));
         System.out.println("Максимальное значение массива: " + myArray.get(myArray.size()-1));
     }
-
 }
