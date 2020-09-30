@@ -31,12 +31,7 @@ public class Lesson02 {
 
     }
 
-
-<<<<<<< HEAD
 //    1. Задать целочисленный массив, состоящий из элементов 0 и 1. Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ].
-=======
-    //    1. Задать целочисленный массив, состоящий из элементов 0 и 1. Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ].
->>>>>>> Lesson 02 for check
 //    С помощью цикла и условия заменить 0 на 1, 1 на 0;
     private static ArrayList generateArrayList(int longArray) {
         // генерируем массив
@@ -49,11 +44,7 @@ public class Lesson02 {
         return  newList;
     }
 
-<<<<<<< HEAD
 //    2. Задать пустой целочисленный массив размером 8. С помощью цикла заполнить его значениями 0 3 6 9 12 15 18 21;
-=======
-    //    2. Задать пустой целочисленный массив размером 8. С помощью цикла заполнить его значениями 0 3 6 9 12 15 18 21;
->>>>>>> Lesson 02 for check
     public static int[] generatePrepearedArray() {
         int[] result = new int[8];
         int[] arrayListPrepeared = new int[] {0,3,6,9,12,15,18,21};
@@ -64,21 +55,13 @@ public class Lesson02 {
         return result;
     }
 
-<<<<<<< HEAD
-//    3. Задать массив [ 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 ] пройти по нему циклом, и числа меньшие 6 умножить на 2;
-=======
     //    3. Задать массив [ 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 ] пройти по нему циклом, и числа меньшие 6 умножить на 2;
->>>>>>> Lesson 02 for check
     public static void multipleGenArray () {
         ArrayList<Integer> myArray = new ArrayList<>(Arrays.asList(1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1));
         myArray.forEach(val -> System.out.println(val < 6 ? val*2 : val));
     }
 
-<<<<<<< HEAD
-//    4. Создать квадратный двумерный целочисленный массив (количество строк и столбцов одинаковое),
-=======
     //    4. Создать квадратный двумерный целочисленный массив (количество строк и столбцов одинаковое),
->>>>>>> Lesson 02 for check
 //    и с помощью цикла(-ов) заполнить его диагональные элементы единицами;
     public static void qmatrix (int gradeNumber) {
         int[][] array = new int[gradeNumber][gradeNumber];
@@ -87,11 +70,7 @@ public class Lesson02 {
         for (int[] val : array) System.out.println(Arrays.toString(val));
     }
 
-<<<<<<< HEAD
-//    5. ** Задать одномерный массив и найти в нем минимальный и максимальный элементы (без помощи интернета);
-=======
     //    5. ** Задать одномерный массив и найти в нем минимальный и максимальный элементы (без помощи интернета);
->>>>>>> Lesson 02 for check
     public static void randomArray() {
         ArrayList<Integer> myArray = new ArrayList<>();
         IntStream stream = IntStream.range(0, 10);
